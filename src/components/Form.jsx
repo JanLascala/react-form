@@ -11,11 +11,14 @@ export default function Form() {
     function handleSubmit(e) {
         e.preventDefault()
         console.log(title, post)
+
+        const saveTitle = [title]
+        const savePost = [post]
     }
 
 
     return (
-        <div className="form text-center">
+        <> <div className="form text-center">
             <div className="mb-3">
                 <form onSubmit={handleSubmit}>
                     <label htmlFor="essay" className="form-label text-center fs-3 text fw-bold "> Write & click when you're finished</label>
@@ -37,5 +40,14 @@ export default function Form() {
             </div>
 
         </div >
+            <div className="card">
+                <div className="card-body">
+
+                    <h5 className="card-title">{title}</h5>
+                    <p className="card-text">{post}</p>
+                </div>
+            </div>
+        </>
+
     )
 }

@@ -5,14 +5,13 @@ import viteLogo from '/vite.svg'
 //other imports
 import Header from './components/header'
 import Form from './components/Form'
-import Card from './components/card'
 
 function App() {
   return (
     <>
       <Header />
       <Form />
-      <Card />
+
 
     </>)
 
