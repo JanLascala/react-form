@@ -12,8 +12,7 @@ export default function Form() {
         e.preventDefault()
         console.log(title, post)
 
-        const saveTitle = [title]
-        const savePost = [post]
+
     }
 
 
