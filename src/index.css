@@ -26,7 +26,14 @@ header {
   margin: auto;
 }
 
+
+
 .form {
   width: 80%;
-  margin: auto
+  margin: auto;
+
+  .Title_form {
+    width: 20%;
+    margin-bottom: 3rem;
+  }
 }
